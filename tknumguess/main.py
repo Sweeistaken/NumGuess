@@ -1,3 +1,9 @@
+"""
+TKNumGuess
+Use with python
+Dont Forget to install TK into your python installation using:
+pip install tk
+"""
 import tkinter as tk, tkinter.messagebox, random
 global awns
 awns,nume,window, = random.randint(0,100),-1,tk.Tk()
